@@ -1,0 +1,78 @@
+gridsystemgenerator.com
+
+http://960.gs/
+
+
+[ 상단 헤드영역 ]
+
+1. 로고 : GSD  ( 그리드시스템디자인 : Grid System Design ) 
+
+2. 그리드란? |  그리드사용법  | 추천사이트 | 블러그 
+
+
+[ 메인 이미지 영역 ]
+
+ 그리드시스템으로 디자인 하다
+
+ 그리드 시스템은 간단히 말해서 디자인의 제 문제를 해결할 수 있는 적절한 도구라 할 수 있다. 
+ 우리가 처음 디자인을 할 때 '주어진 공간 안에 각 디자인 요소들을 어떻게 배열해야 하는가'하는 문제들에 
+ 부딪히게 될 때, 그리드 시스템은 유용한 해결책을 제시해줄 수 있다.
+ 그리드 (960)는 신속하게 레이아웃을 섥개하고 프로토 타입 개발을 가능하게 하는 CSS 프레임 워크입니다. 
+
+
+
+
+[ 컨텐츠 영역 ]
+
+1. 중앙컨텐츠
+
+ Essence
+
+ The 960 Grid System is an effort to streamline web development 
+ workflow by providing commonly used dimensions, based on a width of 960 pixels. 
+ There are two variants: 12 and 16 columns, which can be used separately or 
+ in tandem. Read more.
+
+ Dimensions
+
+ The 12-column grid is divided into portions that are 60 pixels wide. 
+ The 16-column grid consists of 40 pixel increments. Each column has 10 pixels 
+ of margin on the left and right, which create 20 pixel wide gutters 
+ between columns. View demo.
+
+ Purpose
+
+ The premise of the system is ideally suited to rapid prototyping, 
+ but it would work equally well when integrated into a production environment. 
+ There are printable sketch sheets, design layouts, and a CSS file 
+ that have identical measurements.
+
+
+ 2. 우측 콘텐츠
+
+ Plugins
+
+ In addition to design template files, there are app plugins for 
+ Photoshop and Fireworks included in the official download. Additionally, 
+ DMXzone has created a Dreamweaver extension and templates, 
+ available free to members of their site.
+
+ Tutorials
+
+ Web Designer Depot featured an article on writing less code by styling 
+ tags directly. Nettuts has both a tutorial and video. WooThemes wrote a post 
+ entitled “Why we love 960.gs.” There are also articles in Spanish 
+ [1] [2] and Swedish [1] [2].
+
+ Derivatives
+
+ The 960 Grid System is free to use, and may be repurposed to meet your 
+ specific needs. Several projects have already spun off, including versions 
+ built to be fluid and responsive. Additionally, it is has been adapted 
+ as a theme for Drupal
+
+
+
+[ 하단 영역 ]
+
+Copyright 2015 ⓒ GSD.com All Rights Reserved.

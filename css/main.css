@@ -1,0 +1,176 @@
+@charset "utf-8";
+
+@import url(reset.css);
+
+/* ************************  레이아웃 구성시작   ************************ */
+#wrap{
+  width: 960px;
+  padding: 0 15px;
+  margin: auto;
+  /* border: 1px solid #000; */
+}
+#header{
+  width: 100%;
+  height: 126px;
+  padding: 21px 0;
+}
+#mainview{
+  width: 100%;
+  height: 210px;
+  margin-bottom: 42px;
+}
+#contents{
+  width: 620px;
+  height: 609px;
+  float: left;
+}
+#sidebar{
+  width: 300px;
+  height: 609px;
+  float: right;
+  margin-bottom: 105px;
+}
+#footer{
+  width: 100%;
+  height: 63px;
+  clear: both; /* 부모가 없으면 그 다음 애한테 clear: both; */
+}
+
+/* ************************  개별영역 구성시작   ************************ */
+
+/* ************ header Area Start ************ */
+/* site Logo */
+/* 각 어떤 Area 영역임을 명시해 주기! ex) #header h1 { } -->여기의 #header를 말하는것임 */
+#header h1{
+  width: 140px; 
+  height: 84px;
+  float: left;
+}
+#header h1 a{
+  background-image: url(../images/logo.png);
+  background-position: 0 50%;
+}
+
+/* gnb */
+#header .gnb{ 
+  width: 460px; 
+  height: 63px; 
+  float: right;
+  padding-top: 21px;
+}
+#header .gnb li { 
+  width: 25%; 
+  height: 42px; 
+  float: left;
+}
+#header .gnb li a { 
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+  border-right: 1px solid #fff;
+  font: 400 1em/42px 'Nanum Gothic', sans-serif;
+  text-align: center;
+ }
+#header .gnb li a:hover { 
+  color: #fc0;
+ }
+
+
+/* ************ mainview Area Start ************ */
+/* text-box Area Start */
+#mainview .text-box{
+  width: 620px;
+  height: 210px;
+  float: left;
+  margin-right: 100px;
+  padding-top: 21px;
+}
+#mainview .text-box h2{
+  width: 100%;
+  height: 42px;
+  font: 700 2.2em/42px 'Nanum Gothic', sans-serif;
+  color: #ae4005;
+  margin-bottom: 21px;
+}
+
+/* Main Image Area Start */
+#mainview img{
+  width: 210px;
+  height: 210px;
+  float: left;
+}
+
+
+/* ************ contents Area Start ************ */
+#contents>div{
+  width: 100%;
+  height: 189px;
+  margin-bottom: 21px;
+  padding-right: 10px;
+}
+#contents>div img{ 
+  width: 300px;
+  height: 189px;
+  float: left;
+}
+#contents>div h3, #contents>div p{
+  width: 290px;
+  float: right;
+ }
+ #contents>div h3{
+   height: 42;
+   font: 500 2em/42px 'Roboto', sans-serif;
+   margin-bottom: 21px;
+ }
+
+
+/* ************ sidebar Area Start ************ */
+#sidebar>div {
+  width: 100%;
+  height: 189px;
+  padding-left: 80px;
+  position: relative;
+  margin-bottom: 21px;
+}
+#sidebar>div h3{
+  height: 42px;
+  font: 500 2em/42px 'Roboto', sans-serif;
+  margin-bottom: 21px;
+}
+#sidebar>div .icon-box{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 3.6em;
+  /* border: 1px solid #000; */
+}
+#sidebar .sbox1 .icon-box{ color: #9f3322; }
+#sidebar .sbox2 .icon-box{ color: #7ca621; }
+#sidebar .sbox3 .icon-box{ color: #0d90db; font-size: 4em;}
+
+
+
+/* ************ footer Area Start ************ */
+#footer p{
+  width: 100%;
+  height: 63px;
+  background-color: #333;
+  color: #fff;
+  font: 400 1.4em/63px 'Roboto', sans-serif;
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
